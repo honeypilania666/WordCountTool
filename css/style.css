@@ -1,0 +1,43 @@
+/* Global styling */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+
+.heading{
+    color:#fff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+#words{
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #eee;
+    color:rgb(59, 59, 59);
+  
+
+}
+#words:focus{
+    border:none;
+    outline: none;
+}
+.data ul{
+    list-style-type: none;
+}
+.data ul li{
+    display: inline-block;
+    padding:10px;
+    color:rgb(7, 205, 255);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
